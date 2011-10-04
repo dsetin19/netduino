@@ -1,5 +1,7 @@
 Netduino::Application.routes.draw do
+  get "requests/home"
   get "requests/hello"
+  get "requests/led"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
